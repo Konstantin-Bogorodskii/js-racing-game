@@ -14,7 +14,7 @@ car.classList.add('car');
 document.addEventListener('keydown', startGame);
 document.addEventListener('keyup', stopGame);
 
-const music = ['./audio/let-me-die.mp3'];
+const music = ['./audio/game-audio.mp3'];
 const audio = new Audio();
 audio.src = music[0];
 audio.volume = 0.1;
